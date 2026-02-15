@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-instrument-serif: "Instrument Serif", serif;
+}
+
+@layer base {
+  .story-text-stroke p {
+    -webkit-text-stroke: 4px #32291A;
+    paint-order: stroke fill;
+  }
+}
